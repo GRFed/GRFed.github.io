@@ -1,0 +1,199 @@
+#main {    
+    float: left;
+    margin-top: 20px;    
+}
+
+
+
+aside {
+    float: left;    
+    margin-top: 20px;    
+}
+
+
+#ads {
+    float: left;
+    width: 90%;
+}
+
+.ads {                                              /* Блок2 */
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+    color: #646464;
+}
+
+.ads>img {
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+
+.ads>span {
+    float: right;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.ads>a>.btn {
+    float: left;
+    margin-left: 30%;
+}
+
+#exclusive {
+    float: left;
+    margin-top: 10px;    
+}
+
+#exclusive>img {
+    width: 80%;
+    float: left;    
+}
+
+
+}
+
+.heading {                                          /* Заголовок */
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'Indie Flower', cursive;
+    border-bottom: 2px solid rgba(86, 101, 112, 1);
+    float: left;
+    color: #4f4f4f;
+    padding: 0px 5px;
+}
+
+.heading:first-letter {                             /* Первая буква заголовка */
+    color: rgba(86, 101, 112, 1);
+}
+
+
+
+
+#news {                                             /* Для всего блока1 */
+   
+    float: left;
+}
+
+.block {
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-size: 1.1em;
+    color: #3e3e3e;
+}
+
+
+
+ @media (min-width: 1024px) {
+        #main {
+        width: 60%;    
+        margin-left: 3%;
+    }
+
+    aside {   
+        width: 30%;    
+        margin-left: 2%;
+    }
+        #news {                                             
+        margin-left: 10%;
+        width: 90%; 
+
+    }
+    }
+
+    @media (max-width: 1024px) and (min-width: 900px) {
+        #main {
+        width: 65%;    
+        margin-left: 2%;
+    }
+
+    aside {   
+        width: 32%;    
+    }
+        #news {                                             
+        margin-left: 4%;
+        width: 96%; 
+
+    }
+    }
+
+    @media (max-width: 900px) and (min-width: 530px) {
+        #main {
+        width: 90%;    
+        margin-left: 5%;
+    }
+
+    aside {   
+        width: 50%;
+        margin-left: 25%;
+    }
+        #news {                                          
+
+        width: 96%; 
+
+    }
+    }
+
+    @media (max-width: 529px) {
+        #main {
+        width: 90%;    
+        margin-left: 5%;
+    }
+
+    aside {   
+        width: 80%;
+        margin-left: 10%;
+    }
+        #news {                                          
+
+        width: 96%; 
+
+    }
+    }
+
+            @media (min-width: 1220px) {
+                .article {
+                    width: 40%;
+                    margin-right: 10%;
+                }
+            }
+
+            @media (max-width: 1219px) and (min-width: 650px) {
+                .article {
+                    width: 45%;
+                    margin-right: 5%;
+                }
+            }
+
+            @media (max-width: 649px) and (min-width: 500px) {
+                .article {
+                    width: 70%;
+                    margin-right: 15%;
+                }
+            }
+
+            @media (max-width: 499px) {
+                .article {
+                    width: 90%;
+                    margin-right: 5%;
+                }
+            }
+
+@media (max-width: 600px) {
+    #ads>a>.btn {
+        margin-left: 5%!important;
+    }
+}
+
+@media (max-width: 440px) {
+    #main>a>.btn {
+        margin-left: 5%!important;
+    }
+}
+
+
