@@ -55,7 +55,7 @@
                           <div id="menubars"><i class="fa fa-bars" aria-hidden="true"></i></div>
                           <div id="hideMenu">
                               <a href="/kurs.html">Курсовые</a>
-                              <a href="/diploma.html">Дипломные</a>
+                              <a href="/.diploma.php">Дипломные</a>
                               <a href="/doc.html">Рефераты</a>                              
                               <a href="">Способы оплаты</a>
                           </div>
@@ -65,9 +65,9 @@
                           </div>
                           
                           <div id="mobileMenu">
-                              <a href="/kurs.html">Курсовые</a><br>
-                              <a href="/diploma.html">Дипломные</a><br>
-                              <a href="/doc.html">Рефераты</a><br>
+                              <a href="/.kurs.php">Курсовые</a><br>
+                              <a href="/.diploma.php">Дипломные</a><br>
+                              <a href="/doc.php">Рефераты</a><br>
                               <a href="">Оплата</a>                              
                               <hr>
                               <a href="">Регистрация</a>
@@ -101,12 +101,12 @@
                             ?>        -->
                             
                              <div class="article">
-                                <img src="http://www.dsnews.ua/static/files/gallery_uploads/images/avt.jpg" alt="test" title="Пути ускорения оборачиваемости оборотных средств" onclick=location.href="/os.html">
+                                <img src="http://www.dsnews.ua/static/files/gallery_uploads/images/avt.jpg" alt="test" title="Пути ускорения оборачиваемости оборотных средств" onclick=location.href="/.os.php">
                                 <span>Пути ускорения оборачиваемости оборотных средств</span>
                             </div>   
                                
                                 <div class="article">
-                                <img src="http://www.bro.sp.ru/images/2012/EUROPE.jpg" alt="test" title="Нормирование и стандартизация" onclick=location.href="/kurs.html">
+                                <img src="http://www.bro.sp.ru/images/2012/EUROPE.jpg" alt="test" title="Нормирование и стандартизация" onclick=location.href="/.kurs.php">
                                 <span>Нормирование и стандартизация - основная правовая мера..</span>                                    
                             </div> 
                               

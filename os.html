@@ -1,10 +1,17 @@
+<?php
+
+?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
-    <title> Магазин </title>
+    <title> Заказать реферат </title>
+    
+    <link rel="stylesheet" href="css/zakaz.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="css/mpage.css" type="text/css" charset="utf-8">
+   
     
     
         <meta name="description" content="Для размещения описания!">
@@ -65,9 +72,9 @@
                           </div>
                           
                           <div id="mobileMenu">
-                              <a href="/kurs.html">Курсовые</a><br>
-                              <a href="/diploma.html">Дипломные</a><br>
-                              <a href="/doc.html">Рефераты</a><br>
+                              <a href="/.kurs.php">Курсовые</a><br>
+                              <a href="/.diploma.php">Дипломные</a><br>
+                              <a href="/doc.php">Рефераты</a><br>
                               <a href="">Оплата</a>                              
                               <hr>
                               <a href="">Регистрация</a>
@@ -77,60 +84,35 @@
                       </nav>            
            
                                       
-                    <div id="main">
-                        
-                        <div id="slogan">
-                        <img src="img/Documents.png">
-                        <span>Курсовые и дипломные работы на заказ</span></div>
-                        
+                    <div id="main">                       
+                                                  
+                                                                                       
                         <div id="news">
-                            <h2 class="heading">Готовые работы</h2>
+                            <h2 class="heading">Реферат</h2>
                             <div style="clear: both"><br></div>
                             
-                            <!-- статьи -->
-                            
-        <!--для вывода цикла статей        <?php                           
-                                for ($i = 0; $i < 4; $i++)
-                                    echo '
-                            
-                            <div class="article">
-                                <img src="http://samara.newreg.ru/wp-content/uploads/2016/03/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B.jpg" alt="test" title="test">
-                                <span>Read</span>
+                           
+                            <div class="block">
+                                <p>Пути ускорения оборачиваемости оборотных средств</p>
+                                <form>
+                                    
+                                    <iframe src="/doc/referat/os.pdf" width=600 height=500></iframe> 
+                                    
+                                    
+                                </form>
+                                
+                                
                             </div>
-                                         ';
-                            ?>        -->
-                            
-                             <div class="article">
-                                <img src="http://www.dsnews.ua/static/files/gallery_uploads/images/avt.jpg" alt="test" title="Пути ускорения оборачиваемости оборотных средств" onclick=location.href="/os.html">
-                                <span>Пути ускорения оборачиваемости оборотных средств</span>
-                            </div>   
                                
-                                <div class="article">
-                                <img src="http://www.bro.sp.ru/images/2012/EUROPE.jpg" alt="test" title="Нормирование и стандартизация" onclick=location.href="/kurs.html">
-                                <span>Нормирование и стандартизация - основная правовая мера..</span>                                    
-                            </div> 
-                              
-                              <div class="article">
-                                <img src="http://www.konsaltingpremium.ru/wp-content/uploads/2016/05/perevod-zagranpasportov.jpg" alt="test" title="Издержки в долгосрочный и краткосрочный периоды" onclick=location.href="/.izderzhki.php">
-                                <span>Издержки в долгосрочный и краткосрочный периоды</span>
-                            </div> 
-                              
-                              <div class="article">
-                                <img src="http://artificial-intelligence.biz/images/joomlart/article/banner2.jpg" alt="test" title="test">
-                                <span>Read</span>
-                            </div> 
                                
-                                <a href="" title="Больше готовых работ">
-                                <div class="btn">
-                                Ещё
-                                </div>
-                                </a>
+                                <div id="bolv"><a href="" title=""></a>
+                            </div>
                             
                         </div>
                         
                     </div>
-                                <!-- 2блок"рекламы" -->
-                                
+            
+                   
                     <aside>
                         <div id="ads">
                             <h2 class="heading">Реклама</h2>
@@ -149,39 +131,21 @@
                             <div style="clear: both"><br></div>
                                          ';
                             ?>-->
-                                    <div class="ads">
+
+<div class="ads">
                                 <img src="http://designadv.ru/i/designadv.ru/adv_design/2584dcccfa92030b05d7dee34d05885c.jpg" alt="test" title="test">
                                 <em>Размещение рекламы</em>
                                 <span>8-900-000-0000</span>
                             </div>
                             <div style="clear: both"><br></div>
-                            
-                             <div class="ads">
-                                <img src="http://designadv.ru/i/designadv.ru/adv_design/2584dcccfa92030b05d7dee34d05885c.jpg" alt="test" title="test">
-                                <em>Размещение рекламы</em>
-                                <span>8-900-000-0000</span>
-                            </div>
-                            <div style="clear: both"><br></div>
-                            
-                             <div class="ads">
-                                <img src="http://designadv.ru/i/designadv.ru/adv_design/2584dcccfa92030b05d7dee34d05885c.jpg" alt="test" title="test">
-                                <em>Размещение рекламы</em>
-                                <span>8-900-000-0000</span>
-                            </div>
-                            <div style="clear: both"><br></div>
-                            
+
                             <a href="" title="Узнать больше">
                                 <div class="btn">
                                 Узнать больше
                                 </div>
                                 </a>
                         </div>
-                        <div id="exclusive">
-                            <h2 class="heading">Сотрудничество</h2>
-                            <div style="clear: both"><br></div>
-                            <img src="http://unitrans-rail.com/wp-content/gallery/sample/clients_docs.jpg">
-                            
-                        </div>
+                        
                     </aside>
                     <div style="clear: both"><br></div>
             
