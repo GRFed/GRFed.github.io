@@ -245,7 +245,7 @@ z-index:1;  position:relative;
 
 
 
- .str1 {stroke:blue;opacity: 0.35;stroke-width:6;stroke-linejoin:round; z-index:50}
-  .str30 {stroke:green;opacity: 0.35;stroke-width:6;stroke-linejoin:round; z-index:50}
-	.str33 {stroke:red;opacity: 0.35;stroke-width:6;stroke-linejoin:round; z-index:50}
+ .str1 {stroke:#174CA6;opacity: 0.85;stroke-width:6;stroke-linejoin:round; z-index:50}
+  .str30 {stroke:#00BA00;opacity: 0.85;stroke-width:6;stroke-linejoin:round; z-index:50}
+	.str33 {stroke:#E94E00;opacity: 0.85;stroke-width:6;stroke-linejoin:round; z-index:50}
 
