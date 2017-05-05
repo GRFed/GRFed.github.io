@@ -230,7 +230,7 @@ z-index:1;  position:relative;
 
 
 
-    .str6 {stroke:#CFCDC6;stroke-width:2;stroke-linejoin:round}
+    .str6 {stroke:#CFCDC6;stroke-width:4;stroke-linejoin:round}
 
     .fil1 {fill:none; color: red}
     .fil22 {fill:none;fill-rule:nonzero}
@@ -245,7 +245,7 @@ z-index:1;  position:relative;
 
 
 
- .str1 {stroke:#174CA6;opacity: 0.85;stroke-width:6;stroke-linejoin:round; z-index:50}
-  .str30 {stroke:#00BA00;opacity: 0.85;stroke-width:6;stroke-linejoin:round; z-index:50}
-	.str33 {stroke:#E94E00;opacity: 0.85;stroke-width:6;stroke-linejoin:round; z-index:50}
+ .str1 {stroke:#174CA6;opacity: 0.95;stroke-width:7;stroke-linejoin:round; z-index:50}
+  .str30 {stroke:#00BA00;opacity: 0.99;stroke-width:6;stroke-linejoin:round; z-index:50}
+	.str33 {stroke:#E94E00;opacity: 1;stroke-width:6;stroke-linejoin:round; z-index:50}
 
