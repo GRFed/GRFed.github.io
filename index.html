@@ -16,6 +16,16 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script src="js/modernizr.custom.63321.js"></script>
 		<!--[if lte IE 7]><style>.support-note .note-ie{display:block;}</style><![endif]-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript">
+		$(window).scroll(function(e){
+		  parallax();
+		});
+		function parallax(){
+		  var scrolled = $(window).scrollTop();
+		  $('.bg').css('top',-(scrolled*0.3)+'px');
+		}
+		</script>
 
 	</head>
 	<body>
@@ -47,6 +57,27 @@
 				
 			</header>
 			
+			<style>
+			.bg {
+			  background: url('backgrnd.svg') repeat;
+			  position: fixed;
+			  width: 100%;
+			  height: 300%;
+			  top:0;
+			  left:0;
+			  z-index: -1;
+			}
+			section {
+			  color: #fff;
+			  font-family: arial;
+			  width: 500px;
+			  margin: auto;
+			  line-height: 20px;
+			  font-size: 16px;
+			}
+			</style>
+
+			<div class="bg"></div>
 			<section class="main">
 
 				<ul class="timeline">
