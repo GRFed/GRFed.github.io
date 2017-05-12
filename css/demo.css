@@ -32,7 +32,8 @@ body {
     /*font-family: 'Lato', Calibri, Arial, sans-serif;*/
     font-family: 'Lobster', cursive;
     /*background: #c2edf4;*/
-    background: #99FF66;
+	background: linear-gradient(to top, #171828, #323b40);
+    
     font-weight: 300;
     font-size: 14px; 
     color: #222;
@@ -41,7 +42,7 @@ body {
 }
 
 a {
-	color: #555;
+	color: #3da3ff;
 	text-decoration: none;
 }
 
@@ -70,13 +71,14 @@ p {
 .container > header h1 {
 	margin: 0;
 	font-weight: 400;
-	color: #41838e;
+	color: #fff;
 	font-size: 16px; 
-	text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+	text-shadow: 0 1px 1px #3da3ff;
 }
 
 .container > header h1 span {
-	color: #F26328;
+	color: red;
+	text-shadow: 0 5px 10px black;
 }
 
 .container > header h2 {
@@ -87,8 +89,9 @@ p {
 	color: #fff;
 	font-weight: 400;
 	position: relative;
+	background-color: #225811;
 	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2P8DwSMQMCABBhBgiA+sgRYBboEXBuyBIpZMAkAW1YUAh9deX8AAAAASUVORK5CYII=) repeat-x bottom left;
-	text-shadow: 4px 4px 0px #41838e;
+	text-shadow: 4px 4px 0px #222;
 }
 
 .container > header h2 span {
@@ -97,7 +100,7 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	font-size: 18px;
-	color: #F26328;
+	color: #222;
 	text-shadow: none;
 }
 
@@ -206,7 +209,7 @@ padding: 2px 0;
 	font-weight: 400;
 	position: relative;
 	
-	text-shadow: 4px 4px 0px #41838e;
+	text-shadow: 3px 8px 0px black;
 }
 
 .container > footer h2 span {
@@ -219,7 +222,13 @@ padding: 2px 0;
 	color: #F26328;
 	text-shadow: none;
 
-.container > footer p{
+.container > footer h2 span a {
+
+	color: #fff;
+	text-shadow: none;
+}
+
+footer a{
 	float:right;
 	padding: 1px 0;
 	margin: 0;

@@ -20,7 +20,7 @@
    sodipodi:docname="backgrnd.svg"><metadata
      id="metadata2054"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -33,9 +33,9 @@
      inkscape:window-height="876"
      id="namedview2052"
      showgrid="false"
-     inkscape:zoom="0.49166667"
-     inkscape:cx="272.02868"
-     inkscape:cy="619.07991"
+     inkscape:zoom="0.69532167"
+     inkscape:cx="389.39538"
+     inkscape:cy="679.36608"
      inkscape:window-x="1280"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -47,8 +47,8 @@
     .fil1 {fill:#CFCDC6;fill-rule:nonzero}
    </style></defs><g
      id="Слой_x0020_1"
-     transform="translate(-1.6949149e-7,4.0677966)"
-     style="opacity:0.46296296"><metadata
+     transform="matrix(1,0,0,0.92021678,14.381832,30.894266)"
+     style="opacity:0.46296297"><metadata
        id="CorelCorpID_0Corel-Layer" /><g
        id="_283350824"><g
          id="_269991432"><path
@@ -5154,109 +5154,121 @@
            style="fill:#cfcdc6;fill-rule:nonzero" /></g></g></g><text
      xml:space="preserve"
      style="font-size:31.63580132px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.86666667;fill:#c4c8b7;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
-     x="67.58831"
-     y="152.2148"
+     x="14.137297"
+     y="163.5374"
      id="text5072"
      sodipodi:linespacing="125%"
      transform="matrix(0.72671165,-0.0129866,0.01761136,1.3757469,0,0)"><tspan
        sodipodi:role="line"
        id="tspan5074"
-       x="67.58831"
-       y="152.2148">&lt;$opCATID=strip_tags($_POST['opinionid']);</tspan><tspan
+       x="14.137297"
+       y="163.5374">&lt;$opCATID=strip_tags($_POST['opinionid']);</tspan><tspan
        sodipodi:role="line"
-       x="67.58831"
-       y="191.75955"
+       x="14.137297"
+       y="203.08215"
        id="tspan5120">    $opRATE=strip_tags($_POST['opinionrate']);</tspan><tspan
        sodipodi:role="line"
-       x="67.58831"
-       y="231.30431"
+       x="14.137297"
+       y="242.62691"
        id="tspan5122">    $n=&quot;9&quot;;</tspan><tspan
        sodipodi:role="line"
-       x="67.58831"
-       y="270.84906"
+       x="14.137297"
+       y="282.17166"
        id="tspan5124">    $opDATE = date('d.m.Y H:i:s', strtotime($date_today.'+'.$n.' hour'));</tspan><tspan
        sodipodi:role="line"
-       x="67.58831"
-       y="310.3938"
+       x="14.137297"
+       y="321.7164"
        id="tspan5126">    $sql = &quot;INSERT INTO `&gt;</tspan></text>
 <text
-     transform="matrix(0.89880285,0.0572923,-0.07063279,1.1080887,0,0)"
+     transform="matrix(1.0188018,0.05054416,-0.08006296,0.97757311,0,0)"
      sodipodi:linespacing="125%"
      id="text5080"
-     y="-263.93658"
-     x="568.46515"
-     style="font-size:42.02833557000000297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e2e3db;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+     y="-247.23489"
+     x="715.98547"
+     style="font-size:37.07805252px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e2e3db;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
      xml:space="preserve"><tspan
-       y="-263.93658"
-       x="568.46515"
+       y="-247.23489"
+       x="715.98547"
        id="tspan5082"
        sodipodi:role="line">&lt;if ($regs) {</tspan><tspan
-       y="-211.40117"
-       x="568.46515"
+       y="-200.88733"
+       x="715.98547"
        sodipodi:role="line"
        id="tspan5088">    $num = mysql_num_rows($regs);      </tspan><tspan
-       y="-158.86574"
-       x="568.46515"
+       y="-154.53976"
+       x="715.98547"
        sodipodi:role="line"
        id="tspan5090">    $i = 0;</tspan><tspan
-       y="-106.33032"
-       x="568.46515"
+       y="-108.19219"
+       x="715.98547"
        sodipodi:role="line"
        id="tspan5092">    while ($i &lt; $num) {</tspan><tspan
-       y="-53.794903"
-       x="568.46515"
+       y="-61.844627"
+       x="715.98547"
        sodipodi:role="line"
        id="tspan5094">       $regions[$i] = mysql_fetch_assoc($regs);   </tspan><tspan
-       y="-1.2594879"
-       x="568.46515"
+       y="-15.497061"
+       x="715.98547"
        sodipodi:role="line"
        id="tspan5096">       $i++;</tspan><tspan
-       y="51.275928"
-       x="568.46515"
+       y="30.850504"
+       x="715.98547"
        sodipodi:role="line"
        id="tspan5098">    }     </tspan><tspan
-       y="103.81136"
-       x="568.46515"
+       y="77.198074"
+       x="715.98547"
        sodipodi:role="line"
        id="tspan5100">    $result = array('regions'=&gt;$regions);&gt;</tspan></text>
 <text
      xml:space="preserve"
      style="font-size:42.02833557px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.79259261;fill:#c4c8b7;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
-     x="304.56326"
-     y="472.2016"
+     x="258.80896"
+     y="479.18094"
      id="text5102"
      sodipodi:linespacing="125%"
      transform="matrix(0.89905502,-0.05318866,0.06557361,1.1083996,0,0)"><tspan
        sodipodi:role="line"
        id="tspan5104"
-       x="304.56326"
-       y="472.2016">&lt;if ($regs) {</tspan><tspan
+       x="258.80896"
+       y="479.18094">&lt;if ($regs) {</tspan><tspan
        id="tspan5106"
        sodipodi:role="line"
-       x="304.56326"
-       y="524.737">    $num = mysql_num_rows($regs);      </tspan><tspan
+       x="258.80896"
+       y="531.71637">    $num = mysql_num_rows($regs);      </tspan><tspan
        id="tspan5108"
        sodipodi:role="line"
-       x="304.56326"
-       y="577.2724">    $i = 0;</tspan><tspan
+       x="258.80896"
+       y="584.25177">    $i = 0;</tspan><tspan
        id="tspan5110"
        sodipodi:role="line"
-       x="304.56326"
-       y="629.8078">    while ($i &lt; $num) {</tspan><tspan
+       x="258.80896"
+       y="636.78717">    while ($i &lt; $num) {</tspan><tspan
        id="tspan5112"
        sodipodi:role="line"
-       x="304.56326"
-       y="682.34326">       $regions[$i] = mysql_fetch_assoc($regs);   </tspan><tspan
+       x="258.80896"
+       y="689.32263">       $regions[$i] = mysql_fetch_assoc($regs);   </tspan><tspan
        id="tspan5114"
        sodipodi:role="line"
-       x="304.56326"
-       y="734.87866">       $i++;</tspan><tspan
+       x="258.80896"
+       y="741.85803" /><tspan
+       sodipodi:role="line"
+       x="258.80896"
+       y="794.39343"
+       id="tspan4030" /><tspan
+       sodipodi:role="line"
+       x="258.80896"
+       y="846.92889"
+       id="tspan4032" /><tspan
+       sodipodi:role="line"
+       x="258.80896"
+       y="899.46429"
+       id="tspan4034">$i++;</tspan><tspan
        id="tspan5116"
        sodipodi:role="line"
-       x="304.56326"
-       y="787.41406">    }     </tspan><tspan
+       x="258.80896"
+       y="951.99969">    }     </tspan><tspan
        id="tspan5118"
        sodipodi:role="line"
-       x="304.56326"
-       y="839.94952">    $result = array('regions'=&gt;$regions);&gt;</tspan></text>
+       x="258.80896"
+       y="1004.5352">    $result = array('regions'=&gt;$regions);&gt;</tspan></text>
 </svg>

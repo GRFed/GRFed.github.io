@@ -42,8 +42,8 @@
 	height: 100px;
 	
 	box-shadow: 
-		0 0 0 12px #1F303C, 
-		0 1px 1px #1F303C;
+		0 0 0 12px #1c1f21,  /* ободок */
+		0 1px 1px #222;
 	background-repeat: no-repeat;
 	border-radius: 50%;
 	-webkit-transform: scale(0.8) translateX(24px);
@@ -67,7 +67,7 @@
 }
 
 .thumb span {
-	color: #41838e; /* имена */
+	color: #fff; /* имена */
 
 	width: 100%;
 	text-align: center;
@@ -134,7 +134,7 @@
 	content: '\F140';
 	background: #fff;
 	border-radius: 50%;
-	color: #41838E;
+	color: #006bce;
 	font-size: 26px;
 	height: 100%;
 	width: 100%;
@@ -194,16 +194,18 @@
 	padding: 20px;
 	color: #080A0B;
 	border: none;
-	border-left: 5px solid #41838e; /* бортик */
+	border-left: 5px solid #3399CC; /* бортик */
 	font-family: 'Jura', sans-serif; /* шрифт блоков */
-	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-	background: #fff;
+	/*box-shadow: 0 4px 6px rgba(0,0,0,0.1);*/
+        border-radius:7px;
+	box-shadow: 7px 6px 4px black;
+	background: linear-gradient(to top, #CECECE, #fff);;
 }
 
 .content-inner h3 {
 	font-size: 26px;
 	padding: 5px 0 5px 0;
-	color: #41838e;/* заголовок */
+	color: black;/* заголовок */
 
 }
 
@@ -226,8 +228,8 @@
 	position: absolute;
 	width: 30px;
 	height: 30px;
-	color: #41838e;/* пипка */
-
+	color: #3399CC;/* пипка */
+	box-shadow: 15px 3px 2px black;
 	left: -22px;
 	top: 19px;
 	z-index: -1;
@@ -273,18 +275,18 @@
 
 .event input[type="radio"]:checked + label:after {
 	content: '\F0EB';
-	color: #F26328;/* активная галка */
+	color: orange;/* активная галка */
 
 	box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.6);
 }
 
 .event input[type="radio"]:checked ~ .content-perspective:before {
-	background: #F26328;/* активная правая линия */
+	background: #CC0000;/* активная правая линия */
 
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner h3 {
-	color: #F26328;/* активный заголовок */
+	color: #CC0000;/* активный заголовок */
 
 }
 
@@ -297,7 +299,7 @@
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner {
-	border-color: #F26328;/* активный бортик */
+	border-color: #CC0000;/* активный бортик */
 
 	box-shadow: 10px 0px 10px -6px rgba(0, 0, 0, 0.1);
 }
@@ -313,7 +315,7 @@
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner:before {
-	color: #F26328;/* активная пипка */
+	color: #CC0000;/* активная пипка */
 
 }
 
@@ -324,12 +326,12 @@
 	-ms-transform: scale(1);
 	transform: scale(1);
 	box-shadow: 
-		0 0 0 8px rgba(242,99,40,1), 
-		0 1px 1px rgba(255,255,255,0.5);
+		0 0 0 12px #8e0909, /* активный ободок */
+		0 1px 1px #222;
 }
 
 .event input[type="radio"]:checked ~ .thumb span {
-	color: #F26328; /* активное имя */
+	color: #3399CC; /* активное имя */
 
 }
 
