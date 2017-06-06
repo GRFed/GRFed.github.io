@@ -326,7 +326,7 @@
 	-ms-transform: scale(1);
 	transform: scale(1);
 	box-shadow: 
-		0 0 0 12px #009900, /* активный ободок */
+		0 0 0 12px #457edb, /* активный ободок */
 		0 1px 1px #222;
 }
 
