@@ -315,7 +315,7 @@
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner:before {
-	color: #CC0000;/* активная пипка */
+	color: #fa5500;/* активная пипка */
 
 }
 
