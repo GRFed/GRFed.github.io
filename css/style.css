@@ -299,7 +299,7 @@
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner {
-	border-color: #CC0000;/* активный бортик */
+	border-color: #fa5500;/* активный бортик */
 
 	box-shadow: 10px 0px 10px -6px rgba(0, 0, 0, 0.1);
 }
@@ -326,7 +326,7 @@
 	-ms-transform: scale(1);
 	transform: scale(1);
 	box-shadow: 
-		0 0 0 12px #8e0909, /* активный ободок */
+		0 0 0 12px #fa5500, /* активный ободок */
 		0 1px 1px #222;
 }
 
